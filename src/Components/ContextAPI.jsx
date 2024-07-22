@@ -57,7 +57,7 @@ const Context = ({ children }) => {
         return dispatch({
             type: 'HOME_UPDATE',
             payload: {
-                name: " Raj Kumar",
+                name: " Himanshu Kumar",
                 image: "./images/hero.svg"
 
             }
