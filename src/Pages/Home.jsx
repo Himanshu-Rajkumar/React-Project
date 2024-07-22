@@ -17,9 +17,8 @@ const Home = () => {
       <HeroSection />
       <Service/>
       <Contect/>
-      
-
-      </>
+     
+     </>
       
 
    
