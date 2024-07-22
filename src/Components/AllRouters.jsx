@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from '../Pages/Home'
-import Contect from '../Pages/Contect'
+import Contact from '../Pages/Contact'
 import Service from '../Pages/Service'
 import About from '../Pages/About'
 import Header from './Header'
@@ -49,7 +49,7 @@ const AllRouters = () => {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path="/users/:service_id" element={<SingleUser />}></Route>
-          <Route path='/contect' element={<Contect />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/service' element={<Service />} />
           <Route path='*' element={<Error/>} />
         </Routes>
