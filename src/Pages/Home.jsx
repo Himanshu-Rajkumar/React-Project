@@ -18,6 +18,7 @@ const Home = () => {
       <Service/>
       <Contect/>
       <Contect/>
+      <Contect/>
      
      </>
       
