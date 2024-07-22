@@ -13,6 +13,7 @@ const About = () => {
   return (
     <div>
       <HeroSection   />
+      <h1>Hero of World</h1>
     </div>
   )
 }
