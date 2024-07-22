@@ -55,6 +55,7 @@ const Navbar = () => {
           font-size: 4.2rem;
           color: ${({ theme }) => theme.colors.black};
         }
+         
       }
 
       /* hide the original nav menu  */
