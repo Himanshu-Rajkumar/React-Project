@@ -6,7 +6,7 @@ import { Button } from "../styles/button";
 
 const Service = () => {
   const { service } = useGlobalContext();
-  console.log(service)
+  
   
 
 

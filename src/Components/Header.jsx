@@ -11,7 +11,7 @@ const Header = () => {
             <MainHeader>
                 <div className='menuIcon'>
                     <NavLink to='/' >
-                        <img src='./images/icon.png' alt="logo" />
+                        <img className='icon-image' src='./images/icon.png' alt="logo" />
                     </NavLink>
                 </div>
                 <NavBar />
@@ -28,9 +28,13 @@ const MainHeader = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  .logo {
-    height: auto;
-    max-width: 30%;
+ 
+
+  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+    .icon-image{
+    height:Auto;
+    max-width:40%
+    }
   }
 `;
 

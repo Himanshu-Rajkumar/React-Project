@@ -38,7 +38,7 @@ function Contect() {
   return (
     <Wrapper>
       <h2 className="common-heading">Feel Free to Contact us</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58320.87539691012!2d85.32409333681268!3d23.993844997027157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f49c114f26548f%3A0xbd45e868bb61961f!2sHazaribagh%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1721476163545!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58320.87539691012!2d85.32409333681268!3d23.993844997027157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f49c114f26548f%3A0xbd45e868bb61961f!2sHazaribagh%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1721476163545!5m2!1sen!2sin" width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
       <div className="container">
         <div className="contact-form">
